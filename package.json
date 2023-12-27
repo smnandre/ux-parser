@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest --reporter=verbose"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
